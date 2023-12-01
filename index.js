@@ -83,7 +83,7 @@ app.post("/payment", cors(), async (req, res) => {
           <h3>Event details</h3>
           <p>
             Event name: 2024 FaithFull Steward Conference (Expository Preaching)<br>
-            Event date: Thu April 14, 2024 10:00Am<br>
+            Event date: Thu April 13, 2024 10:00Am<br>
             Venue: Sacramento California<br>
      
           </p>
