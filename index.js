@@ -12,6 +12,10 @@ const nodemailer = require("nodemailer");
 // Allow requests from any origin for development. Update this in production.
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the FaithFull Steward Server!");
+});
+
 app.post("/payment", cors(), async (req, res) => {
   let {
     amount,
