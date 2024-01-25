@@ -117,7 +117,7 @@ app.post("/payment", cors(), async (req, res) => {
 
     // Create a PaymentIntent and associate it with the customer
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: 4000, // Use the actual amount if it's fixed, or calculate dynamically based on product details
+      amount: 100, // Use the actual amount if it's fixed, or calculate dynamically based on product details
       currency: "USD",
       description: "Preacher Conference",
       payment_method: id,
